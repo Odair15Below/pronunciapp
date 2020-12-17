@@ -18,8 +18,6 @@ function NextWord() {
     }
 
     const [word, setWord] = useState(appContext.phonetics[phonetic].word);
-    console.log(word);
-    console.log(appContext.phonetics[phonetic].word);
 
     const nextWordClick = () => {
         setNextWord();
