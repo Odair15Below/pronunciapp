@@ -4,9 +4,9 @@ import './index.css';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
 import {
-  BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  HashRouter
 } from "react-router-dom";
 import NextWord from './components/word';
 
@@ -26,7 +26,7 @@ const appData = {
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+  <HashRouter basename='/'>
       <div>
         <AppDataContext.Provider value={appData}>
           {/* A <Switch> looks through its children <Route>s and
@@ -44,7 +44,7 @@ ReactDOM.render(
           </Switch>
         </AppDataContext.Provider>
       </div>
-    </Router>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
