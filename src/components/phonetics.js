@@ -30,7 +30,7 @@ function PhoneticGroup(group) {
                 <span className="font-bold tracking-wider text-gray-900">{name}</span>
             </div>
             {
-                <div className={`grid grid-cols-${columnCount} gap-2`}>
+                <div className={`grid-${columnCount}`}>
                     {
                         symbols !== undefined ?
                             symbols.filter(p => p.category === name).map((p, i) => {
