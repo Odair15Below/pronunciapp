@@ -50,10 +50,10 @@ function NextWord() {
                 </div>
             </Link>
             <div onClick={() => nextWordClick()} className={`min-h-screen flex flex-col justify-center text-center ` + category.color}>
-                <div className="text-6xl text-gray-600">{phonetic}</div>
                 {
                     word !== undefined ? <div className="text-6xl">{word.word}</div> : <div onClick={() => reset()}>end of game reset</div>
                 }
+                <div className="text-6xl text-gray-600">{phonetic}</div>
             </div>
         </div>)
 }
