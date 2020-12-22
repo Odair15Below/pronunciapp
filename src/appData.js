@@ -942,10 +942,6 @@ const words = [
     category: "ɔɪ"
   },
   {
-    word: "eəʳ",
-    category: "eəʳ"
-  },
-  {
     word: "there",
     category: "eəʳ"
   },

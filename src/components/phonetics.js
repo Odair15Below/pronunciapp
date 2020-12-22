@@ -44,17 +44,46 @@ function PhoneticGroup(group) {
 
 function PhoneticSymbol(params) {
     const { item, color } = params;
+    const appContext = useContext(AppDataContext);
     return (
         <Link to={"/" + item.phoneticSymbol}>
-            <div className={"h-full text-center shadow-md  " + color}>
-                <div className="text-4xl">{item.phoneticSymbol}</div>
-                <div className="text-md lowercase text-gray-500">{item.samples ?
-                    item.samples.map((s, i) => {
-                        return (<span key={i}>{s}{i < item.samples.length && ", "}</span>);
-                    })
-                    : <span></span>}
+
+            <div className="border-gray-300 border rounded-md">
+                <div className={"p-2 w-full text-center font-bold " + color}>
+                    <span className="text-2xl text-gray-700">{item.phoneticSymbol}</span>
+                </div>
+                <div>
+                    <div className="w-full text-center py-2 font-semibold text-gray-500 ">
+                        {
+                            item.samples ?
+                                item.samples.map((s, i) => {
+                                    return (<span key={i}>{s}{i < item.samples.length && ", "}</span>);
+                                })
+                                : <span></span>
+                        }
+                    </div>
+
+                    <div className="w-full text-right p-2">
+                        <div className="lg:inline pr-2 text-xs font-black text-gray-500">
+                            <span>📚 {appContext.wordsList.filter(x => x.category === item.phoneticSymbol).length}  words</span>
+                        </div>
+                        {
+                            appContext.phonetics[item.phoneticSymbol] ?
+                                <div className="inline  text-gray-700">
+                                    <span className="text-xs">💪 </span>
+                                    {appContext.phonetics[item.phoneticSymbol] ?
+                                        <span className="text-sm font-black">{appContext.phonetics[item.phoneticSymbol].reps} </span> :
+                                        <span className="text-sm font-black">0</span>}
+                                </div> : <div className="inline  text-gray-500">
+                                    <span className="text-xs opacity-50">💪 </span>
+                                    <span className="text-sm font-black">0</span>
+                                </div>
+                        }
+                    </div>
                 </div>
             </div>
+
+            
         </Link>);
 
 }
