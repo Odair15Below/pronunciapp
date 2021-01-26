@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { AppDataContext } from '../appContext';
 import { categories, phoneticSymbols } from '../appData';
+import { useSpeechSynthesis } from 'react-speech-kit';
 
 
 function NextWord() {
@@ -9,6 +10,7 @@ function NextWord() {
     const appContext = useContext(AppDataContext);
     const { wordsList } = appContext;
     const { phonetic } = useParams();
+    const { speak } = useSpeechSynthesis();
 
     if (!appContext.phonetics[phonetic]) {
         appContext.phonetics[phonetic] = {};
@@ -39,6 +41,11 @@ function NextWord() {
         setWord(appContext.phonetics[phonetic].word);
     }
 
+    const playWord = (word, event) => {
+        event.stopPropagation();
+        speak({ text: word });
+    }
+
     return (
         <div className={"container overflow-hidden mx-auto lg:max-w-screen-md h-screen " + category.color}>
             <Link to="/" >
@@ -51,7 +58,7 @@ function NextWord() {
                             </svg>
                         </div>
                         <div className="pt-4 text-center text-lg font-black text-gray-700">
-                            <span>▶️ </span>
+                            <span>▶️</span>
                             <span>{appContext.phonetics[phonetic].availableWords.length}</span>
                             <span> / </span>
                             <span>{wordsList.filter(x => x.category === phonetic).length}</span>
@@ -67,9 +74,10 @@ function NextWord() {
                 {
                     word !== undefined ?
                         <div>
-                            <div className="text-5xl font-black">{word.word}</div>
                             <div className="text-2xl font-black text-gray-600 mt-2">{phonetic}</div>
-                        </div> : <div className="w-full text-center" onClick={() => reset()}>
+                            <div className="text-5xl font-black">{word.word} </div>
+                            <div className="mt-3"><button onClick={(event) => playWord(word.word, event)}>▶️</button></div>
+                            </div> : <div className="w-full text-center" onClick={() => reset()}>
                             <span className="text-2xl font-black text-gray-700">End of game reset</span>
                             <br></br>
                             <br></br>

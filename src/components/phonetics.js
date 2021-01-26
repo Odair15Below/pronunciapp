@@ -8,7 +8,7 @@ function Phonetics() {
     const { categories, phoneticSymbols } = appContext;
 
     return (
-        <div className="container mx-auto min-h-screen lg:max-w-screen-md bg-gray-100 px-2 py-4">
+        <div className="container mx-auto min-h-screen lg:max-w-screen-md bg-gray-50 px-2 py-4">
             {
                 categories.map((c, i) => <PhoneticGroup
                     key={i}
@@ -20,6 +20,7 @@ function Phonetics() {
             }
         </div>)
 }
+
 
 function PhoneticGroup(group) {
 
@@ -48,44 +49,42 @@ function PhoneticSymbol(params) {
     return (
         <Link to={"/" + item.phoneticSymbol}>
 
-            <div className="border-gray-300 border rounded-md">
+            <div className="border-gray-200 border rounded-sm">
                 <div className={"p-2 w-full text-center font-bold " + color}>
-                    <span className="text-2xl text-gray-700">{item.phoneticSymbol}</span>
+                    <span className="text-2xl text-gray-600">{item.phoneticSymbol}</span>
                 </div>
-                <div>
-                    <div className="w-full text-center py-2 font-semibold text-gray-500 ">
+                <div className="bg-white">
+                    <div className="w-full sm:text-xs text-center py-2 font-sans font-medium text-gray-500 ">
                         {
                             item.samples ?
                                 item.samples.map((s, i) => {
-                                    return (<span key={i}>{s}{i < item.samples.length && ", "}</span>);
+                                    return (<div key={i} className="text-xs lg:inline "> {i < item.samples.length-1 ? s + ", " : s} </div>);
                                 })
                                 : <span></span>
                         }
                     </div>
 
-                    <div className="w-full text-right p-2">
-                        <div className="lg:inline pr-2 text-xs font-black text-gray-500">
-                            <span>📚 {appContext.wordsList.filter(x => x.category === item.phoneticSymbol).length}  words</span>
-                        </div>
-                        {
-                            appContext.phonetics[item.phoneticSymbol] ?
-                                <div className="inline  text-gray-700">
-                                    <span className="text-xs">💪 </span>
-                                    {appContext.phonetics[item.phoneticSymbol] ?
-                                        <span className="text-sm font-black">{appContext.phonetics[item.phoneticSymbol].reps} </span> :
-                                        <span className="text-sm font-black">0</span>}
-                                </div> : <div className="inline  text-gray-500">
-                                    <span className="text-xs opacity-50">💪 </span>
-                                    <span className="text-sm font-black">0</span>
-                                </div>
-                        }
+                    <div className="w-full text-right p-1 py-2 lg:py-4 lg:px-2 text-gray-500 text-xs font-medium">
+                        <Stats icon="📚" value={appContext.wordsList.filter(x => x.category === item.phoneticSymbol).length} />
+                        <Stats icon="💪" value={appContext.phonetics[item.phoneticSymbol] ?
+                                appContext.phonetics[item.phoneticSymbol].reps : 0} />
+
                     </div>
+
                 </div>
             </div>
 
-            
+
         </Link>);
 
 }
+
+const Stats = (params) => {
+    const { icon, value } = params;
+    return (<div className="inline pl-1 lg:pl-2">
+        <span className="text-xs opacity-90">{icon}</span>
+        <span className="">{value}</span>
+    </div>);
+};
 
 export default Phonetics;

@@ -5,17 +5,17 @@
 .grid-4{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 1.5rem;
+    grid-gap: 1rem;
 }
 
 .grid-3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1.5rem;
+    grid-gap: 1rem;
 }
 
 .grid-2{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 1.5rem;
+    grid-gap: 1rem;
 }
