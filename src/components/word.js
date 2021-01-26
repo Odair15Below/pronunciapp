@@ -5,7 +5,7 @@ import { categories, phoneticSymbols } from '../appData';
 import { useSpeechSynthesis } from 'react-speech-kit';
 
 
-function NextWord() {
+const NextWord= () => {
 
     const appContext = useContext(AppDataContext);
     const { wordsList } = appContext;
