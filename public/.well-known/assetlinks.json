@@ -1,0 +1,6 @@
+[{
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target" : { "namespace": "android_app", "package_name": "odair.ferreira.pronunciapp",
+                     "sha256_cert_fingerprints": ["9E:08:13:43:09:3D:2F:69:8D:DB:F2:D9:AF:0E:01:81:6E:B8:07:84:57:C5:14:39:6E:C8:82:FC:CB:5D:FD:ED"] }
+      }
+]
