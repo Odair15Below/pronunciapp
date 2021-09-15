@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pronunciapp/static/css/main.2d192d8c.chunk.css",
+    "main.css": "/pronunciapp/static/css/main.beebf0f5.chunk.css",
     "main.js": "/pronunciapp/static/js/main.87c3d7c7.chunk.js",
     "main.js.map": "/pronunciapp/static/js/main.87c3d7c7.chunk.js.map",
     "runtime-main.js": "/pronunciapp/static/js/runtime-main.fe33427c.js",
@@ -12,13 +12,13 @@
     "index.html": "/pronunciapp/index.html",
     "service-worker.js": "/pronunciapp/service-worker.js",
     "service-worker.js.map": "/pronunciapp/service-worker.js.map",
-    "static/css/main.2d192d8c.chunk.css.map": "/pronunciapp/static/css/main.2d192d8c.chunk.css.map",
+    "static/css/main.beebf0f5.chunk.css.map": "/pronunciapp/static/css/main.beebf0f5.chunk.css.map",
     "static/js/2.b2c5d62c.chunk.js.LICENSE.txt": "/pronunciapp/static/js/2.b2c5d62c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.fe33427c.js",
     "static/js/2.b2c5d62c.chunk.js",
-    "static/css/main.2d192d8c.chunk.css",
+    "static/css/main.beebf0f5.chunk.css",
     "static/js/main.87c3d7c7.chunk.js"
   ]
 }
