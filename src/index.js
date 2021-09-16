@@ -3,49 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
-import {
-  Switch,
-  Route,
-  HashRouter
-} from "react-router-dom";
-import NextWord from './components/word';
+import App from './App';
 
-import { AppDataContext } from "./appContext";
-import { categories, phoneticSymbols, words } from './appData';
-import Phonetics from './components/phonetics';
-
-const appData = {
-  wordsList: words,
-  phoneticSymbols: phoneticSymbols,
-  categories: categories,
-  phonetics: {
-    availableWords : [],
-    word: {}
-  }
-};
 
 ReactDOM.render(
-  <React.StrictMode>
-  <HashRouter basename='/'>
-      <div>
-        <AppDataContext.Provider value={appData}>
-          {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
-          <Switch>
-          <Route path="/pronunciapp" exact>
-              <Phonetics />
-            </Route>
-            <Route path="/:phonetic">
-              <NextWord />
-            </Route>
-            <Route path="/">
-              <Phonetics />
-            </Route>
-          </Switch>
-        </AppDataContext.Provider>
-      </div>
-    </HashRouter>
-  </React.StrictMode>,
+  <div className='bg-gray-50'>
+    <App />
+  </div>
+  ,
   document.getElementById('root')
 );
 

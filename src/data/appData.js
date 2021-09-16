@@ -1,22 +1,13 @@
 
 var categories = [
   {
-    category: "monophtongs",
-    color: "bg-indigo-100",
-    textcolor: "text-gray-700",
-    columnCount: "4"
+    category: "voewls",
   },
   {
     category: "diphtongs",
-    color: "bg-pink-100",
-    textcolor: "text-gray-700",
-    columnCount: "3"
   },
   {
     category: "consonants",
-    color: "bg-green-100",
-    textcolor: "text-gray-700",
-    columnCount: "2"
   }
 ];
 
@@ -24,62 +15,62 @@ var phoneticSymbols = [
   {
     phoneticSymbol: "ɪ",
     samples: ["HIT", "SITTING"],
-    category: "monophtongs"
+    category: "voewls"
   },
   {
     phoneticSymbol: "i:",
     samples: ["SEE", "HEAT"],
-    category: "monophtongs"
+    category: "voewls"
   },
   {
     phoneticSymbol: "ʊ",
     samples: ["PUT", "COULD"],
-    category: "monophtongs"
+    category: "voewls"
   },
   {
     phoneticSymbol: "u:",
     samples: ["BLUE", "FOOD"],
-    category: "monophtongs"
+    category: "voewls"
   },
   {
     phoneticSymbol: "e",
     samples: ["MET", "BED"],
-    category: "monophtongs"
+    category: "voewls"
   },
   {
     phoneticSymbol: "ə",
     samples: ["AWAY", "CINEMA"],
-    category: "monophtongs"
+    category: "voewls"
   },
   {
     phoneticSymbol: "ɜ:ʳ",
     samples: ["TURN", "LEARN"],
-    category: "monophtongs"
+    category: "voewls"
   },
   {
     phoneticSymbol: "ɔ:",
     samples: ["CALL", "FOUR"],
-    category: "monophtongs"
+    category: "voewls"
   },
   {
     phoneticSymbol: "æ",
     samples: ["CAT", "BLACK"],
-    category: "monophtongs"
+    category: "voewls"
   },
   {
     phoneticSymbol: "ʌ",
     samples: ["CUP", "LUCK"],
-    category: "monophtongs"
+    category: "voewls"
   },
   {
     phoneticSymbol: "ɑ:",
     samples: ["ARM", "FATHER"],
-    category: "monophtongs"
+    category: "voewls"
   },
   {
     phoneticSymbol: "ɒ",
     samples: ["HOT", "ROCK"],
-    category: "monophtongs"
+    category: "voewls"
   },
   {
     phoneticSymbol: "eəʳ",
@@ -258,8500 +249,8510 @@ var phoneticSymbols = [
 const words = [
   {
     word: "cup",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "luck",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "bun",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "bus",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "bus",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "butter",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "cut",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "fun",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "gun",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "lunch",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "run",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "luck",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "structure",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "summer",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "summer",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "Sunday",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "thunder",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "truck",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "tunnel",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "tunnel",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "under",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "up",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "us",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "accomplish",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "come",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "comfort",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "comfortable",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "company",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "mother",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "some",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "Monday",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "money",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "mongrel",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "monk",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "confrontation",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "done",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "done",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "honey",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "London",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "none",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "once",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "son",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "sponge",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "ton",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "tongue",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "tonne",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "won",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "wonderful",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "cover",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "covet",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "discover",
-    category: "ʌ"
+    phoneticSymbol: "ʌ"
   },
   {
     word: "father",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "apart",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "are",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "aren't",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "argue",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "argument",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "art",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "article",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "artist",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "bar",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "car",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "card",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "carpet",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "charge",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "charm",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "chart",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "dark",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "department",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "far",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "farm",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "garden",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "guard",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "guitar",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "hard",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "harm",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "large",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "march",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "mark",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "market",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "park",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "part",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "party",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "regard",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "remark",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "sharp",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "smart",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "star",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "start",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "target",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "yard",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "heart",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "avocado ",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "balm",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "bra",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "garage",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "karate",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "karate",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "lava",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "llama",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "origami",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "safari",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "bourgeoisie",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "repertoire",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "sharp",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "clerk",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "sergeant",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "spa",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "tsunami",
-    category: "ɑ:"
+    phoneticSymbol: "ɑ:"
   },
   {
     word: "I",
-    category: "aɪ"
+    phoneticSymbol: "aɪ"
   },
 
   {
     word: "die",
-    category: "aɪ"
+    phoneticSymbol: "aɪ"
   },
   {
     word: "try",
-    category: "aɪ"
+    phoneticSymbol: "aɪ"
   },
   {
     word: "supply",
-    category: "aɪ"
+    phoneticSymbol: "aɪ"
   },
   {
     word: "eye",
-    category: "aɪ"
+    phoneticSymbol: "aɪ"
   },
   {
     word: "apply",
-    category: "aɪ"
+    phoneticSymbol: "aɪ"
   },
   {
     word: "dry",
-    category: "aɪ"
+    phoneticSymbol: "aɪ"
   },
   {
     word: "buy",
-    category: "aɪ"
+    phoneticSymbol: "aɪ"
   },
   {
     word: "why",
-    category: "aɪ"
+    phoneticSymbol: "aɪ"
   },
   {
     word: "lie",
-    category: "aɪ"
+    phoneticSymbol: "aɪ"
   },
   {
     word: "sky",
-    category: "aɪ"
+    phoneticSymbol: "aɪ"
   },
   {
     word: "reply",
-    category: "aɪ"
+    phoneticSymbol: "aɪ"
   },
   {
     word: "combined",
-    category: "aɪ"
+    phoneticSymbol: "aɪ"
   },
   {
     word: "guy",
-    category: "aɪ"
+    phoneticSymbol: "aɪ"
   },
   {
     word: "described",
-    category: "aɪ"
+    phoneticSymbol: "aɪ"
   },
   {
     word: "deny",
-    category: "aɪ"
+    phoneticSymbol: "aɪ"
   },
   {
     word: "rely",
-    category: "aɪ"
+    phoneticSymbol: "aɪ"
   },
   {
     word: "provide",
-    category: "aɪ"
+    phoneticSymbol: "aɪ"
   },
   {
     word: "imply",
-    category: "aɪ"
+    phoneticSymbol: "aɪ"
   },
   {
     word: "shy",
-    category: "aɪ"
+    phoneticSymbol: "aɪ"
   },
   {
     word: "sigh",
-    category: "aɪ"
+    phoneticSymbol: "aɪ"
   },
   {
     word: "thigh",
-    category: "aɪ"
+    phoneticSymbol: "aɪ"
   },
   {
     word: "they",
-    category: "eɪ"
+    phoneticSymbol: "eɪ"
   },
   {
     word: "make",
-    category: "eɪ"
+    phoneticSymbol: "eɪ"
   },
   {
     word: "great",
-    category: "eɪ"
+    phoneticSymbol: "eɪ"
   },
   {
     word: "same",
-    category: "eɪ"
+    phoneticSymbol: "eɪ"
   },
   {
     word: "case",
-    category: "eɪ"
+    phoneticSymbol: "eɪ"
   },
   {
     word: "able",
-    category: "eɪ"
+    phoneticSymbol: "eɪ"
   },
   {
     word: "age",
-    category: "eɪ"
+    phoneticSymbol: "eɪ"
   },
   {
     word: "eight",
-    category: "eɪ"
+    phoneticSymbol: "eɪ"
   },
   {
     word: "agent",
-    category: "eɪ"
+    phoneticSymbol: "eɪ"
   },
   {
     word: "game",
-    category: "eɪ"
+    phoneticSymbol: "eɪ"
   },
   {
     word: "state",
-    category: "eɪ"
+    phoneticSymbol: "eɪ"
   },
   {
     word: "later",
-    category: "eɪ"
+    phoneticSymbol: "eɪ"
   },
   {
     word: "change",
-    category: "eɪ"
+    phoneticSymbol: "eɪ"
   },
   {
     word: "day",
-    category: "eɪ"
+    phoneticSymbol: "eɪ"
   },
   {
     word: "play",
-    category: "eɪ"
+    phoneticSymbol: "eɪ"
   },
   {
     word: "away",
-    category: "eɪ"
+    phoneticSymbol: "eɪ"
   },
   {
     word: "stay",
-    category: "eɪ"
+    phoneticSymbol: "eɪ"
   },
   {
     word: "remain",
-    category: "eɪ"
+    phoneticSymbol: "eɪ"
   },
   {
     word: "claimed",
-    category: "eɪ"
+    phoneticSymbol: "eɪ"
   },
   {
     word: "aimed",
-    category: "eɪ"
+    phoneticSymbol: "eɪ"
   },
   {
     word: "point",
-    category: "ɔɪ"
+    phoneticSymbol: "ɔɪ"
   },
   {
     word: "boy",
-    category: "ɔɪ"
+    phoneticSymbol: "ɔɪ"
   },
   {
     word: "voice",
-    category: "ɔɪ"
+    phoneticSymbol: "ɔɪ"
   },
   {
     word: "join",
-    category: "ɔɪ"
+    phoneticSymbol: "ɔɪ"
   },
   {
     word: "oil",
-    category: "choice"
+    phoneticSymbol: "choice"
   },
   {
     word: "enjoy",
-    category: "ɔɪ"
+    phoneticSymbol: "ɔɪ"
   },
   {
     word: "avoid",
-    category: "ɔɪ"
+    phoneticSymbol: "ɔɪ"
   },
   {
     word: "employee",
-    category: "ɔɪ"
+    phoneticSymbol: "ɔɪ"
   },
   {
     word: "enjoys",
-    category: "ɔɪ"
+    phoneticSymbol: "ɔɪ"
   },
   {
     word: "deploy",
-    category: "ɔɪ"
+    phoneticSymbol: "ɔɪ"
   },
   {
     word: "annoyed",
-    category: "ɔɪ"
+    phoneticSymbol: "ɔɪ"
   },
   {
     word: "voiced",
-    category: "ɔɪ"
+    phoneticSymbol: "ɔɪ"
   },
   {
     word: "noisy",
-    category: "ɔɪ"
+    phoneticSymbol: "ɔɪ"
   },
   {
     word: "toy",
-    category: "ɔɪ"
+    phoneticSymbol: "ɔɪ"
   },
   {
     word: "rejoice",
-    category: "ɔɪ"
+    phoneticSymbol: "ɔɪ"
   },
   {
     word: "recoil",
-    category: "ɔɪ"
+    phoneticSymbol: "ɔɪ"
   },
   {
     word: "avoid",
-    category: "ɔɪ"
+    phoneticSymbol: "ɔɪ"
   },
   {
     word: "moist",
-    category: "ɔɪ"
+    phoneticSymbol: "ɔɪ"
   },
   {
     word: "steroid",
-    category: "ɔɪ"
+    phoneticSymbol: "ɔɪ"
   },
   {
     word: "soybean",
-    category: "ɔɪ"
+    phoneticSymbol: "ɔɪ"
   },
   {
     word: "there",
-    category: "eəʳ"
+    phoneticSymbol: "eəʳ"
   },
   {
     word: "where",
-    category: "eəʳ"
+    phoneticSymbol: "eəʳ"
   },
   {
     word: "area",
-    category: "eəʳ"
+    phoneticSymbol: "eəʳ"
   },
   {
     word: "parent",
-    category: "eəʳ"
+    phoneticSymbol: "eəʳ"
   },
   {
     word: "yeah",
-    category: "eəʳ"
+    phoneticSymbol: "eəʳ"
   },
   {
     word: "various",
-    category: "eəʳ"
+    phoneticSymbol: "eəʳ"
   },
   {
     word: "care",
-    category: "eəʳ"
+    phoneticSymbol: "eəʳ"
   },
   {
     word: "wear",
-    category: "eəʳ"
+    phoneticSymbol: "eəʳ"
   },
   {
     word: "share",
-    category: "eəʳ"
+    phoneticSymbol: "eəʳ"
   },
   {
     word: "fair",
-    category: "eəʳ"
+    phoneticSymbol: "eəʳ"
   },
   {
     word: "bear",
-    category: "eəʳ"
+    phoneticSymbol: "eəʳ"
   },
   {
     word: "compare",
-    category: "eəʳ"
+    phoneticSymbol: "eəʳ"
   },
   {
     word: "prepare",
-    category: "eəʳ"
+    phoneticSymbol: "eəʳ"
   },
   {
     word: "questionnaire",
-    category: "eəʳ"
+    phoneticSymbol: "eəʳ"
   },
   {
     word: "declare",
-    category: "eəʳ"
+    phoneticSymbol: "eəʳ"
   },
   {
     word: "upstairs",
-    category: "eəʳ"
+    phoneticSymbol: "eəʳ"
   },
   {
     word: "repaired",
-    category: "eəʳ"
+    phoneticSymbol: "eəʳ"
   },
   {
     word: "beware",
-    category: "eəʳ"
+    phoneticSymbol: "eəʳ"
   },
   {
     word: "barrier",
-    category: "eəʳ"
+    phoneticSymbol: "eəʳ"
   },
   {
     word: "year",
-    category: "ɪəʳ"
+    phoneticSymbol: "ɪəʳ"
   },
   {
     word: "hear",
-    category: "ɪəʳ"
+    phoneticSymbol: "ɪəʳ"
   },
   {
     word: "really",
-    category: "ɪəʳ"
+    phoneticSymbol: "ɪəʳ"
   },
   {
     word: "area",
-    category: "ɪəʳ"
+    phoneticSymbol: "ɪəʳ"
   },
   {
     word: "clear",
-    category: "ɪəʳ"
+    phoneticSymbol: "ɪəʳ"
   },
   {
     word: "material",
-    category: "ɪəʳ"
+    phoneticSymbol: "ɪəʳ"
   },
   {
     word: "here",
-    category: "ɪəʳ"
+    phoneticSymbol: "ɪəʳ"
   },
   {
     word: "ear",
-    category: "ɪəʳ"
+    phoneticSymbol: "ɪəʳ"
   },
   {
     word: "really",
-    category: "ɪəʳ"
+    phoneticSymbol: "ɪəʳ"
   },
   {
     word: "experience",
-    category: "ɪəʳ"
+    phoneticSymbol: "ɪəʳ"
   },
   {
     word: "nearly",
-    category: "ɪəʳ"
+    phoneticSymbol: "ɪəʳ"
   },
   {
     word: "idea",
-    category: "ɪəʳ"
+    phoneticSymbol: "ɪəʳ"
   },
   {
     word: "appear",
-    category: "ɪəʳ"
+    phoneticSymbol: "ɪəʳ"
   },
   {
     word: "near",
-    category: "ɪəʳ"
+    phoneticSymbol: "ɪəʳ"
   },
   {
     word: "career",
-    category: "ɪəʳ"
+    phoneticSymbol: "ɪəʳ"
   },
   {
     word: "sphere",
-    category: "ɪəʳ"
+    phoneticSymbol: "ɪəʳ"
   },
   {
     word: "interfere",
-    category: "ɪəʳ"
+    phoneticSymbol: "ɪəʳ"
   },
   {
     word: "disappear",
-    category: "ɪəʳ"
+    phoneticSymbol: "ɪəʳ"
   },
   {
     word: "tear",
-    category: "ɪəʳ"
+    phoneticSymbol: "ɪəʳ"
   },
   {
     word: "gear",
-    category: "ɪəʳ"
+    phoneticSymbol: "ɪəʳ"
   },
   {
     word: "during",
-    category: "ʊəʳ"
+    phoneticSymbol: "ʊəʳ"
   },
   {
     word: "security",
-    category: "ʊəʳ"
+    phoneticSymbol: "ʊəʳ"
   },
   {
     word: "ensuring",
-    category: "ʊəʳ"
+    phoneticSymbol: "ʊəʳ"
   },
   {
     word: "curing",
-    category: "ʊəʳ"
+    phoneticSymbol: "ʊəʳ"
   },
   {
     word: "labouring",
-    category: "ʊəʳ"
+    phoneticSymbol: "ʊəʳ"
   },
   {
     word: "duty",
-    category: "ʊəʳ"
+    phoneticSymbol: "ʊəʳ"
   },
   {
     word: "assuring",
-    category: "ʊəʳ"
+    phoneticSymbol: "ʊəʳ"
   },
   {
     word: "obscure",
-    category: "ʊəʳ"
+    phoneticSymbol: "ʊəʳ"
   },
   {
     word: "cooking",
-    category: "ʊəʳ"
+    phoneticSymbol: "ʊəʳ"
   },
   {
     word: "maturing",
-    category: "ʊəʳ"
+    phoneticSymbol: "ʊəʳ"
   },
   {
     word: "procuring",
-    category: "ʊəʳ"
+    phoneticSymbol: "ʊəʳ"
   },
   {
     word: "luring",
-    category: "ʊəʳ"
+    phoneticSymbol: "ʊəʳ"
   },
   {
     word: "flavouring",
-    category: "ʊəʳ"
+    phoneticSymbol: "ʊəʳ"
   },
   {
     word: "savouring",
-    category: "ʊəʳ"
+    phoneticSymbol: "ʊəʳ"
   },
   {
     word: "endure",
-    category: "ʊəʳ"
+    phoneticSymbol: "ʊəʳ"
   },
   {
     word: "secure",
-    category: "ʊəʳ"
+    phoneticSymbol: "ʊəʳ"
   },
   {
     word: "ensuring",
-    category: "ʊəʳ"
+    phoneticSymbol: "ʊəʳ"
   },
   {
     word: "touring",
-    category: "ʊəʳ"
+    phoneticSymbol: "ʊəʳ"
   },
   {
     word: "alluring",
-    category: "ʊəʳ"
+    phoneticSymbol: "ʊəʳ"
   },
   {
     word: "looking",
-    category: "ʊəʳ"
+    phoneticSymbol: "ʊəʳ"
   },
   {
     word: "town",
-    category: "aʊ"
+    phoneticSymbol: "aʊ"
   },
   {
     word: "down",
-    category: "aʊ"
+    phoneticSymbol: "aʊ"
   },
   {
     word: "our",
-    category: "aʊ"
+    phoneticSymbol: "aʊ"
   },
   {
     word: "without",
-    category: "aʊ"
+    phoneticSymbol: "aʊ"
   },
   {
     word: "house",
-    category: "aʊ"
+    phoneticSymbol: "aʊ"
   },
   {
     word: "around",
-    category: "aʊ"
+    phoneticSymbol: "aʊ"
   },
   {
     word: "power",
-    category: "aʊ"
+    phoneticSymbol: "aʊ"
   },
   {
     word: "however",
-    category: "aʊ"
+    phoneticSymbol: "aʊ"
   },
   {
     word: "allow",
-    category: "aʊ"
+    phoneticSymbol: "aʊ"
   },
   {
     word: "allow",
-    category: "aʊ"
+    phoneticSymbol: "aʊ"
   },
   {
     word: "about",
-    category: "aʊ"
+    phoneticSymbol: "aʊ"
   },
   {
     word: "found",
-    category: "aʊ"
+    phoneticSymbol: "aʊ"
   },
   {
     word: "south",
-    category: "aʊ"
+    phoneticSymbol: "aʊ"
   },
   {
     word: "ground",
-    category: "aʊ"
+    phoneticSymbol: "aʊ"
   },
   {
     word: "bound",
-    category: "aʊ"
+    phoneticSymbol: "aʊ"
   },
   {
     word: "throughout",
-    category: "aʊ"
+    phoneticSymbol: "aʊ"
   },
   {
     word: "compound",
-    category: "aʊ"
+    phoneticSymbol: "aʊ"
   },
   {
     word: "pound",
-    category: "aʊ"
+    phoneticSymbol: "aʊ"
   },
   {
     word: "ultrasound",
-    category: "aʊ"
+    phoneticSymbol: "aʊ"
   },
   {
     word: "towel",
-    category: "aʊ"
+    phoneticSymbol: "aʊ"
   },
   {
     word: "open",
-    category: "oʊ"
+    phoneticSymbol: "oʊ"
   },
   {
     word: "only",
-    category: "oʊ"
+    phoneticSymbol: "oʊ"
   },
   {
     word: "old",
-    category: "oʊ"
+    phoneticSymbol: "oʊ"
   },
   {
     word: "most",
-    category: "oʊ"
+    phoneticSymbol: "oʊ"
   },
   {
     word: "program",
-    category: "oʊ"
+    phoneticSymbol: "oʊ"
   },
   {
     word: "hold",
-    category: "oʊ"
+    phoneticSymbol: "oʊ"
   },
   {
     word: "home",
-    category: "oʊ"
+    phoneticSymbol: "oʊ"
   },
   {
     word: "also",
-    category: "oʊ"
+    phoneticSymbol: "oʊ"
   },
   {
     word: "show",
-    category: "oʊ"
+    phoneticSymbol: "oʊ"
   },
   {
     word: "ago",
-    category: "oʊ"
+    phoneticSymbol: "oʊ"
   },
   {
     word: "follow",
-    category: "oʊ"
+    phoneticSymbol: "oʊ"
   },
   {
     word: "so",
-    category: "oʊ"
+    phoneticSymbol: "oʊ"
   },
   {
     word: "know",
-    category: "oʊ"
+    phoneticSymbol: "oʊ"
   },
   {
     word: "below",
-    category: "oʊ"
+    phoneticSymbol: "oʊ"
   },
   {
     word: "pro",
-    category: "oʊ"
+    phoneticSymbol: "oʊ"
   },
   {
     word: "plateau",
-    category: "oʊ"
+    phoneticSymbol: "oʊ"
   },
   {
     word: "dough",
-    category: "oʊ"
+    phoneticSymbol: "oʊ"
   },
   {
     word: "owe",
-    category: "oʊ"
+    phoneticSymbol: "oʊ"
   },
   {
     word: "glow",
-    category: "oʊ"
+    phoneticSymbol: "oʊ"
   },
   {
     word: "although",
-    category: "oʊ"
+    phoneticSymbol: "oʊ"
   },
   {
     word: "cat",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "black",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "add",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "and",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "ankle",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "back",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "bad",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "bank",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "bat",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "can",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "carry",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "fact",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "family",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "flat",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "hand",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "happen",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "happy",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "land",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "man",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "match",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "matter",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "plan",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "sad",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "stand",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "thank",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "travel",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "understand",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "value",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "tax",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "track",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "band",
-    category: "æ"
+    phoneticSymbol: "æ"
   },
   {
     word: "accept",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "bell",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "bend",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "best",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "correct",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "desk",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "egg",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "end",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "expect",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "forget",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "get",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "hell",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "help",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "hotel",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "jet",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "leg",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "lend",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "let",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "met",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "neck",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "next",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "pen",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "protect",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "rent",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "request",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "sell",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "send",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "set",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "spend",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "suggest",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "tell",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "theft",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "well",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "went",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "wet",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "when",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "yell",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "yes",
-    category: "e"
+    phoneticSymbol: "e"
   },
   {
     word: "about",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "account",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "admire",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "again",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "alone",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "along",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "among",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "appeal",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "appear",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "arise",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "around",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "away",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "occur",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "official",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "oppose",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "original",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "ballon",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "domestic",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "familiar",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "gorilla",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "habitual",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "horizon",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "capacity",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "community",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "computer",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "concern",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "consider",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "continue",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "control",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "lagoon",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "machine",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "material",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "patrol",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "police",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "position",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "suggest",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "supply",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "support",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "today",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "together",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "variety",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "protect",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "provide",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "certainly",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "concentrate",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "enemy",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "initiative",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "efficiency",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "circumstance",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "measurement",
-    category: "ə"
+    phoneticSymbol: "ə"
   },
   {
     word: "turn",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "learn",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "certain",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "concern",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "determine",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "her",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "nerve",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "perfect",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "person",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "service",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "term",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "verb",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "were",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "early",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "earn",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "earth",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "heard",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "learn",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "search",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "burn",
-    category: "hurt"
+    phoneticSymbol: "hurt"
   },
   {
     word: "murder",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "return",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "surface",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "urban",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "bird",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "birthday",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "circle",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "circuit",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "dirty",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "firm",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "girl",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "shirt",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "sir",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "virtual",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "virtue",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "certify",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "pearl",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "curly",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "attorney",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "courteous",
-    category: "ɜ:ʳ"
+    phoneticSymbol: "ɜ:ʳ"
   },
   {
     word: "hit",
-    category: "ɪ"
+    phoneticSymbol: "ɪ"
   },
   {
     word: "sitting",
-    category: "ɪ"
+    phoneticSymbol: "ɪ"
   },
   {
     word: "begin",
-    category: "ɪ"
-  },
-  {
-    word: "big",
-    category: "ɪ"
-  },
-  {
-    word: "bit",
-    category: "ɪ"
-  },
-  {
-    word: "bring",
-    category: "ɪ"
-  },
-  {
-    word: "chips",
-    category: "ɪ"
-  },
-  {
-    word: "did",
-    category: "ɪ"
-  },
-  {
-    word: "different",
-    category: "ɪ"
-  },
-  {
-    word: "finish",
-    category: "ɪ"
-  },
-  {
-    word: "fish",
-    category: "ɪ"
-  },
-  {
-    word: "fit",
-    category: "ɪ"
-  },
-  {
-    word: "give",
-    category: "ɪ"
-  },
-  {
-    word: "hip",
-    category: "ɪ"
-  },
-  {
-    word: "interest",
-    category: "ɪ"
-  },
-  {
-    word: "issue",
-    category: "ɪ"
-  },
-  {
-    word: "kill",
-    category: "ɪ"
-  },
-  {
-    word: "kiss",
-    category: "ɪ"
-  },
-  {
-    word: "link",
-    category: "ɪ"
-  },
-  {
-    word: "lip",
-    category: "ɪ"
-  },
-  {
-    word: "liquid",
-    category: "ɪ"
-  },
-  {
-    word: "little",
-    category: "ɪ"
-  },
-  {
-    word: "quick",
-    category: "ɪ"
-  },
-  {
-    word: "since",
-    category: "ɪ"
-  },
-  {
-    word: "sing",
-    category: "ɪ"
-  },
-  {
-    word: "sit",
-    category: "ɪ"
-  },
-  {
-    word: "thick",
-    category: "ɪ"
-  },
-  {
-    word: "thin",
-    category: "ɪ"
-  },
-  {
-    word: "thing",
-    category: "ɪ"
-  },
-  {
-    word: "think",
-    category: "ɪ"
-  },
-  {
-    word: "this",
-    category: "ɪ"
-  },
-  {
-    word: "will",
-    category: "ɪ"
-  },
-  {
-    word: "win",
-    category: "ɪ"
-  },
-  {
-    word: "with",
-    category: "ɪ"
-  },
-  {
-    word: "crystal",
-    category: "ɪ"
-  },
-  {
-    word: "physics",
-    category: "ɪ"
-  },
-  {
-    word: "syllable",
-    category: "ɪ"
-  },
-  {
-    word: "sympathy",
-    category: "ɪ"
-  },
-  {
-    word: "system",
-    category: "ɪ"
-  },
+    phoneticSymbol: "ɪ"
+   },
+  // {
+  //   word: "big",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "bit",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "bring",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "chips",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "did",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "different",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "finish",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "fish",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "fit",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "give",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "hip",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "interest",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "issue",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "kill",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "kiss",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "link",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "lip",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "liquid",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "little",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "quick",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "since",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "sing",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "sit",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "thick",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "thin",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "thing",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "think",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "this",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "will",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "win",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "with",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "crystal",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "physics",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "syllable",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "sympathy",
+  //   phoneticSymbol: "ɪ"
+  // },
+  // {
+  //   word: "system",
+  //   phoneticSymbol: "ɪ"
+  // },
   {
     word: "see",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "heat",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "appreciate",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "equal",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "even",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "evening",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "evil",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "female",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "frequent",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "immediately",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "legal",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "meter",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "previous",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "procedure",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "recent",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "region",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "secret",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "senior",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "sequence",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "species",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "vehicle",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "athlete",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "compete",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "concrete",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "delete",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "extreme",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "gene",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "scene",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "scheme",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "theme",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "these",
-    category: "i:"
+    phoneticSymbol: "i:"
   },
   {
     word: "hot",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "rock",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "body",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "box",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "follow",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "got",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "involve",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "job",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "lot",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "model",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "obvious",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "policy",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "possible",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "probably",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "problem",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "product",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "shop",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "top",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "quality",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "restaurant",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "wad",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "wander",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "want",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "wash",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "watch",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "knowledge",
-    category: "ɒ"
+    phoneticSymbol: "ɒ"
   },
   {
     word: "call",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "four",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "abroad",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "broad",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "ought",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "thought",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "bought",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "brought",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "fought",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "sought",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "thought",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "water",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "almost",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "already",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "alter",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "always",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "chalk",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "false",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "salt",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "talk",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "walk",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "ball",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "fall",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "hall",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "mall",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "small",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "wall",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "dawn",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "flaw",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "hawk",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "jaw",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "law",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "lawn",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "raw",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "shawl",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "yawn",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "audiction",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "author",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "cause",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "clause",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "caught",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "taught",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "daughter",
-    category: "ɔ:"
+    phoneticSymbol: "ɔ:"
   },
   {
     word: "put",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "could",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "book",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "cook",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "foot",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "good",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "hood",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "hook",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "look",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "shook",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "stood",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "took",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "wood",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "wool",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "wolf",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "woman",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "would",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "should",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "bull",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "bullet",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "bully",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "bush",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "butcher",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "cushion",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "full",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "push",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "sugar",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "brook",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "crook",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "soot",
-    category: "ʊ"
+    phoneticSymbol: "ʊ"
   },
   {
     word: "blue",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "blew",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "chew",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "crew",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "drew",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "screw",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "threw",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "approve",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "approval",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "improve",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "lose",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "move",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "movie",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "prove",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "remove",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "shoe",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "tomb",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "whose",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "womb",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "do",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "two",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "who",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "group",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "soup",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "through",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "you",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "youth",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "flu",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "include",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "rule",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "glue",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "sue",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "true",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "bruise",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "cruise",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "fruit",
-    category: "u:"
+    phoneticSymbol: "u:"
   },
   {
     word: "part",
-    category: "p"
+    phoneticSymbol: "p"
   },
   {
     word: "pause",
-    category: "p"
+    phoneticSymbol: "p"
   },
   {
     word: "people",
-    category: "p"
+    phoneticSymbol: "p"
   },
   {
     word: "place",
-    category: "p"
+    phoneticSymbol: "p"
   },
   {
     word: "pocket",
-    category: "p"
+    phoneticSymbol: "p"
   },
   {
     word: "problem",
-    category: "p"
+    phoneticSymbol: "p"
   },
   {
     word: "public",
-    category: "p"
+    phoneticSymbol: "p"
   },
   {
     word: "put",
-    category: "p"
+    phoneticSymbol: "p"
   },
   {
     word: "appear",
-    category: "p"
+    phoneticSymbol: "p"
   },
   {
     word: "company",
-    category: "p"
+    phoneticSymbol: "p"
   },
   {
     word: "display",
-    category: "p"
+    phoneticSymbol: "p"
   },
   {
     word: "expect",
-    category: "p"
+    phoneticSymbol: "p"
   },
   {
     word: "improve",
-    category: "p"
+    phoneticSymbol: "p"
   },
   {
     word: "opinion",
-    category: "p"
+    phoneticSymbol: "p"
   },
   {
     word: "report",
-    category: "p"
+    phoneticSymbol: "p"
   },
   {
     word: "transport",
-    category: "p"
+    phoneticSymbol: "p"
   },
   {
     word: "develop",
-    category: "p"
+    phoneticSymbol: "p"
   },
   {
     word: "help",
-    category: "p"
+    phoneticSymbol: "p"
   },
   {
     word: "shape",
-    category: "p"
+    phoneticSymbol: "p"
   },
   {
     word: "shop",
-    category: "p"
+    phoneticSymbol: "p"
   },
   {
     word: "wipe",
-    category: "p"
+    phoneticSymbol: "p"
   },
   {
     word: "type",
-    category: "p"
+    phoneticSymbol: "p"
   },
   {
     word: "ball",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "bear",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "bird",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "black",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "blue",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "body",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "book",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "bring",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "brother",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "bull",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "busy",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "able",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "about",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "cabbage",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "double",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "number",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "problem",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "public",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "remember",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "subject",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "bomb",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "climb",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "club",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "disturb",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "globe",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "grab",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "job",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "pub",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "verb",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "web",
-    category: "b"
+    phoneticSymbol: "b"
   },
   {
     word: "think",
-    category: "θ"
+    phoneticSymbol: "θ"
   }, {
-    "category": "p",
+    "phoneticSymbol": "p",
     "word": "part"
   },
   {
-    "category": "p",
+    "phoneticSymbol": "p",
     "word": "pause"
   },
   {
-    "category": "p",
+    "phoneticSymbol": "p",
     "word": "people"
   },
   {
-    "category": "p",
+    "phoneticSymbol": "p",
     "word": "place"
   },
   {
-    "category": "p",
+    "phoneticSymbol": "p",
     "word": "pocket"
   },
   {
-    "category": "p",
+    "phoneticSymbol": "p",
     "word": "problem"
   },
   {
-    "category": "p",
+    "phoneticSymbol": "p",
     "word": "public"
   },
   {
-    "category": "p",
+    "phoneticSymbol": "p",
     "word": "put"
   },
   {
-    "category": "p",
+    "phoneticSymbol": "p",
     "word": "appear"
   },
   {
-    "category": "p",
+    "phoneticSymbol": "p",
     "word": "company"
   },
   {
-    "category": "p",
+    "phoneticSymbol": "p",
     "word": "display"
   },
   {
-    "category": "p",
+    "phoneticSymbol": "p",
     "word": "expect"
   },
   {
-    "category": "p",
+    "phoneticSymbol": "p",
     "word": "improve"
   },
   {
-    "category": "p",
+    "phoneticSymbol": "p",
     "word": "opinion"
   },
   {
-    "category": "p",
+    "phoneticSymbol": "p",
     "word": "report"
   },
   {
-    "category": "p",
+    "phoneticSymbol": "p",
     "word": "transport"
   },
   {
-    "category": "p",
+    "phoneticSymbol": "p",
     "word": "develop"
   },
   {
-    "category": "p",
+    "phoneticSymbol": "p",
     "word": "help"
   },
   {
-    "category": "p",
+    "phoneticSymbol": "p",
     "word": "hope"
   },
   {
-    "category": "p",
+    "phoneticSymbol": "p",
     "word": "shape"
   },
   {
-    "category": "p",
+    "phoneticSymbol": "p",
     "word": "shop"
   },
   {
-    "category": "p",
+    "phoneticSymbol": "p",
     "word": "stop"
   },
   {
-    "category": "p",
+    "phoneticSymbol": "p",
     "word": "type"
   },
   {
-    "category": "p",
+    "phoneticSymbol": "p",
     "word": "wipe"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "ball"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "bear"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "bird"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "black"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "blue"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "body"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "book"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "bring"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "brother"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "bull"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "busy"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "able"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "about"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "cabbage"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "double"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "number"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "problem"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "public"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "rabbit"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "remember"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "subject"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "bomb"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "climb"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "club"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "disturb"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "globe"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "grab"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "job"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "pub"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "verb"
   },
   {
-    "category": "b",
+    "phoneticSymbol": "b",
     "word": "web"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "take"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "talk"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "team"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "technology"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "tell"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "time"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "today"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "together"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "town"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "train"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "travel"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "try"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "turn"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "type"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "city"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "later"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "letter"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "matter"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "political"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "return"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "security"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "water"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "country"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "its"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "little"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "stand"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "still"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "stop"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "story"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "study"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "system"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "understand"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "about"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "but"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "different"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "get"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "great"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "government"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "just"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "last"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "lot"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "meet"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "next"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "part"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "point"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "put"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "want"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "what"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "write"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "asked"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "helped"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "laughed"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "passed"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "thanked"
   },
   {
-    "category": "t",
+    "phoneticSymbol": "t",
     "word": "watched"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "daisy"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "day"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "deal"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "deer"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "development"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "different"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "dinosaur"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "dolphin"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "down"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "dress"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "duck"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "during"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "already"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "body"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "condition"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "consider"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "idea"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "ladder"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "model"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "order"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "product"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "study"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "today"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "under"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "bad"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "bed"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "child"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "feed"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "find"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "God"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "good"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "hide"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "include"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "mood"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "need"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "old"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "provide"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "side"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "wood"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "upside"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "down"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "headdress"
   },
   {
-    "category": "d",
+    "phoneticSymbol": "d",
     "word": "midday"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "call"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "clock"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "coat"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "come"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "cross"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "cut"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "economy"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "education"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "fact"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "include"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "secret"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "security"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "economic"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "music"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "public"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "specific"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "account"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "accuse"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "occasion"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "occupy"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "occur"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "ankle"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "bake"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "book"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "break"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "dark"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "like"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "look"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "oak"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "shake"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "shark"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "sink"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "take"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "walk"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "week"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "weekly"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "work"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "donkey"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "keep"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "kill"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "kind"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "kiss"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "kitchen"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "skin"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "speaker"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "market"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "worker"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "attack"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "black"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "check"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "lock"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "luck"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "rock"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "sock"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "shock"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "sick"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "stick"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "thick"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "ticket"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "haiku"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "kangaroo"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "Kansas"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "karate"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "koala"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "Korea"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "okay"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "Oklahoma"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "remarkable"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "attack"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "black"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "check"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "lock"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "luck"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "rock"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "sock"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "shock"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "sick"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "stick"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "thick"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "ticket"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "ache"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "archive"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "chaos"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "chemical"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "chemist"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "chemistry"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "psychology"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "stomach"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "technician"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "technology"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "quarter"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "liquor"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "technique"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "conquer"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "acquaintance"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "acquire"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "cake"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "click"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "clock"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "cook"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "cork"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "crack"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "crook"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "kick"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "quick"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "box"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "complex"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "fix"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "matrix"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "mix"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "next"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "relax"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "tax"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "books"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "breaks"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "cooks"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "looks"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "seeks"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "thanks"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "walks"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "weeks"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "attacks"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "checks"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "clocks"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "locks"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "packs"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "rocks"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "shocks"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "critics"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "mathematics"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "plastics"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "politics"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "statistics"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "topics"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "matriarchs"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "monarchs"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "patriarchs"
   },
   {
-    "category": "k",
+    "phoneticSymbol": "k",
     "word": "stomachs"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "game"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "garden"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "gave"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "gear"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "get"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "ghost"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "girl"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "give"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "go"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "good"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "got"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "grant"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "grass"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "gray"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "great"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "green"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "grey"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "group"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "guess"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "guitar"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "bag"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "big"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "bug"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "dialog"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "dialogue"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "dog"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "drag"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "drug"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "egg"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "flag"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "fog"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "leg"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "log"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "pig"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "again"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "ago"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "agree"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "begin"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "figure"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "luggage"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "organisation"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "organization"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "program"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "programme"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "regard"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "struggle"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "target"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "together"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "auxiliary"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "exam"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "example"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "exhibit"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "exhilarating"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "exit"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "disgusting"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "disguise"
   },
   {
-    "category": "g",
+    "phoneticSymbol": "g",
     "word": "disgrace"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "face"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "fact"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "fail"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "fall"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "family"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "far"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "feel"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "few"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "fight"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "find"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "first"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "follow"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "for"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "forget"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "form"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "friend"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "from"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "belief"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "brief"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "chief"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "half"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "if"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "knife"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "life"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "off"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "relief"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "safe"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "self"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "staff"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "stuff"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "wife"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "after"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "before"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "benefit"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "different"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "difficult"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "effect"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "information"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "offer"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "office"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "often"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "sulfur"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "therefore"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "cough"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "enough"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "laugh"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "laughter"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "rough"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "tough"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "atmosphere"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "phase"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "philosophy"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "phonetics"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "photograph"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "phrase"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "physical"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "physics"
   },
   {
-    "category": "f",
+    "phoneticSymbol": "f",
     "word": "telephone"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "valley"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "value"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "van"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "variable"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "vary"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "vast"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "vegetable"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "vehicle"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "verb"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "version"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "very"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "veteran"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "victim"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "victory"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "view"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "village"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "virus"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "vision"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "visit"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "voice"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "vote"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "valley"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "value"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "van"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "variable"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "vary"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "vast"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "vegetable"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "vehicle"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "verb"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "version"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "very"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "veteran"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "victim"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "victory"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "view"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "village"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "virus"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "vision"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "visit"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "voice"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "vote"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "activity"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "available"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "cover"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "develop"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "even"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "ever"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "evidence"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "government"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "however"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "individual"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "investment"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "level"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "never"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "over"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "provide"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "service"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "seven"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "travel"
   },
   {
-    "category": "v",
+    "phoneticSymbol": "v",
     "word": "several"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "theatre"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "theme"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "theory"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "therapy"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "thick"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "thin"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "thing"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "think"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "thirteen"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "thirst"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "thirty"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "thorough"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "thought"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "thousand"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "threat"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "three"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "threw"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "throat"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "through"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "throw"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "thumb"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "Thursday"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "bath"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "beneath"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "birth"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "both"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "breath"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "death"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "depth"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "earth"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "faith"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "forth"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "growth"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "health"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "length"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "math"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "month"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "mouth"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "north"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "path"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "south"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "strength"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "teeth"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "tooth"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "truth"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "wealth"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "worth"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "youth"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "anything"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "everything"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "nothing"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "something"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "athlete"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "author"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "Dorothy"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "Ethiopia"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "ethnic"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "healthy"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "hypothesis"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "Martha"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "mathematics"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "maths"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "method"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "monthly"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "strengthen"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "wealthy"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "baths"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "oaths"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "truths"
   },
   {
-    "category": "θ",
+    "phoneticSymbol": "θ",
     "word": "wreaths"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "than"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "that"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "the"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "their"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "them"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "then"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "there"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "these"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "they"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "this"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "those"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "though"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "thus"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "although"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "another"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "either"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "neither"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "other"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "rather"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "together"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "whether"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "within"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "bother"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "brother"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "clothing"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "father"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "farther"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "feather"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "further"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "gather"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "leather"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "mother"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "Netherlands"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "northern"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "rhythm"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "southern"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "with"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "breathe"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "smooth"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "baths"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "mouths"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "paths"
   },
   {
-    "category": "ð",
+    "phoneticSymbol": "ð",
     "word": "youths"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "celebrate"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "cell"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "cent"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "center"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "century"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "certainly"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "cigarette"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "circle"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "circumstance"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "citizen"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "city"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "civil"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "cycle"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "sad"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "sale"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "same"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "say"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "scar"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "school"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "sea"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "seat"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "second"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "see"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "sell"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "send"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "sense"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "service"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "set"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "several"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "side"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "sign"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "since"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "sing"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "sink"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "sit"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "ski"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "sky"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "sleep"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "small"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "smile"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "sneeze"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "soap"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "social"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "some"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "song"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "soon"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "sort"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "sound"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "speak"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "spend"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "squeeze"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "staff"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "stand"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "start"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "stay"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "stop"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "strong"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "study"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "suggest"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "suit"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "sun"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "swim"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "swing"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "symbol"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "system"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "experience"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "face"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "ice"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "nice"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "once"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "place"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "price"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "service"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "since"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "twice"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "base"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "case"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "course"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "horse"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "house"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "increase"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "loose"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "nurse"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "sense"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "basis"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "bus"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "focus"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "gas"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "perhaps"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "politics"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "previous"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "this"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "various"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "yes"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "across"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "business"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "class"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "kiss"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "less"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "miss"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "pass"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "process"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "waltz"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "ritz"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "scene"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "scythe"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "science"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "psych"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "psalm"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "accent"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "December"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "decent"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "decimal"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "receive"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "reception"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "recent"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "also"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "ask"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "best"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "just"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "past"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "person"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "question"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "research"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "task"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "west"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "associate"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "assume"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "essential"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "lesson"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "necessary"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "message"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "possible"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "pretzel"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "ritzy"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "approximately"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "context"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "example"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "experience"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "expect"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "next"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "taxi"
   },
   {
-    "category": "c",
+    "phoneticSymbol": "c",
     "word": "text"
   },
   {
-    "category": "z",
+    "phoneticSymbol": "z",
     "word": "zapping"
   },
   {
-    "category": "z",
+    "phoneticSymbol": "z",
     "word": "zebra"
   },
   {
-    "category": "z",
+    "phoneticSymbol": "z",
     "word": "zero"
   },
   {
-    "category": "z",
+    "phoneticSymbol": "z",
     "word": "zone"
   },
   {
-    "category": "z",
+    "phoneticSymbol": "z",
     "word": "zoo"
   },
   {
-    "category": "z",
+    "phoneticSymbol": "z",
     "word": "amaze"
   },
   {
-    "category": "z",
+    "phoneticSymbol": "z",
     "word": "booze"
   },
   {
-    "category": "z",
+    "phoneticSymbol": "z",
     "word": "buzz"
   },
   {
-    "category": "z",
+    "phoneticSymbol": "z",
     "word": "breeze"
   },
   {
-    "category": "z",
+    "phoneticSymbol": "z",
     "word": "freeze"
   },
   {
-    "category": "z",
+    "phoneticSymbol": "z",
     "word": "gaze"
   },
   {
-    "category": "z",
+    "phoneticSymbol": "z",
     "word": "prize"
   },
   {
-    "category": "z",
+    "phoneticSymbol": "z",
     "word": "size"
   },
   {
-    "category": "z",
+    "phoneticSymbol": "z",
     "word": "citizen"
   },
   {
-    "category": "z",
+    "phoneticSymbol": "z",
     "word": "crazy"
   },
   {
-    "category": "z",
+    "phoneticSymbol": "z",
     "word": "dizzy"
   },
   {
-    "category": "z",
+    "phoneticSymbol": "z",
     "word": "dozen"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "cash"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "crash"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "dish"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "establish"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "fashion"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "finish"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "fish"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "flash"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "fresh"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "push"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "relationship"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "shake"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "shall"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "shape"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "share"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "she"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "shift"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "shine"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "ship"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "shock"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "shoe"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "shoot"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "shop"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "short"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "should"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "shoulder"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "show"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "wash"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "wish"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "commission"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "depression"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "discussion"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "expression"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "impression"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "mission"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "professional"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "Russia"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "session"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "assure"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "issue"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "pressure"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "tissue"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "action"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "assumption"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "condition"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "definition"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "education"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "function"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "generation"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "information"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "location"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "mention"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "nation"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "option"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "rational"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "station"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "tradition"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "variation"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "essential"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "initial"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "initiative"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "partial"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "potential"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "substantial"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "patience"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "patient"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "efficient"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "musician"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "racial"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "special"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "ocean"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "anxious"
   },
   {
-    "category": "ʃ",
+    "phoneticSymbol": "ʃ",
     "word": "machine"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "equation"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "usually"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "conclusion"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "confusion"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "decision"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "division"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "occasion"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "provision"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "television"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "vision"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "conclusion"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "confusion"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "decision"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "division"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "occasion"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "provision"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "television"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "vision"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "usual"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "visual"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "exposure"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "measure"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "pleasure"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "beginning"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "genre"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "amnesia"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "luxurious"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "seizure"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "beige"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "collage"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "massage"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "mirage"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "rouge"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "sabotage"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "collision"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "exclusion"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "explosion"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "fusion"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "illusion"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "inclusion"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "invasion"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "lesion"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "persuasion"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "precision"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "revision"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "disclosure"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "enclosure"
   },
   {
-    "category": "ʒ",
+    "phoneticSymbol": "ʒ",
     "word": "leisure"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "chain"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "chair"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "challenge"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "champion"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "chance"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "change"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "channel"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "chapter"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "charge"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "chart"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "chat"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "cheap"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "cheat"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "check"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "cheese"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "chess"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "chief"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "child"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "China"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "choice"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "choose"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "church"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "approach"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "beach"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "branch"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "church"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "coach"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "each"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "launch"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "lunch"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "much"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "reach"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "research"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "rich"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "search"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "speech"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "such"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "teach"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "touch"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "which"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "attach"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "batch"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "catch"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "match"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "sketch"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "stretch"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "switch"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "watch"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "achieve"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "exchange"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "purchase"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "Richard"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "teacher"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "butcher"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "kitchen"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "adventure"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "culture"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "feature"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "fortunate"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "furniture"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "future"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "picture"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "natural"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "situation"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "suggestion"
   },
   {
-    "category": "tʃ",
+    "phoneticSymbol": "tʃ",
     "word": "question"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "January"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "jam"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "Jamaica"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "James"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "Jane"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "Japan"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "jeans"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "job"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "John"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "join"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "joke"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "journey"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "July"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "jump"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "judge"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "June"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "just"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "gentleman"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "gender"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "gene"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "general"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "generate"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "generation"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "genetic"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "Germany"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "George"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "Georgia"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "gesture"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "giant"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "gym"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "enjoy"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "injure"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "major"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "majority"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "object"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "project"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "reject"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "subject"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "apologize"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "Argentina"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "Belgium"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "biology"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "danger"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "Egypt"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "energy"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "engineer"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "imagine"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "Los Angeles"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "Niger"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "Nigeria"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "refrigerator"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "original"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "region"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "Roger"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "strategy"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "technology"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "urgent"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "Virginia"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "advantage"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "age"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "average"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "change"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "charge"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "college"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "huge"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "image"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "language"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "large"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "manage"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "orange"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "page"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "range"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "stage"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "badge"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "edge"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "fridge"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "judge"
   },
   {
-    "category": "dʒ",
+    "phoneticSymbol": "dʒ",
     "word": "knowledge"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "Haiti"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "half"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "hand"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "happen"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "Harold"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "hard"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "hat"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "have"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "Hawaii"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "he"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "head"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "hear"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "heat"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "help"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "Henry"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "here"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "high"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "history"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "hit"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "home"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "hold"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "hot"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "house"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "how"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "human"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "Hungary"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "hut"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "who"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "whole"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "whose"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "ahead"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "alcohol"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "behave"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "behaviour"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "behind"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "childhood"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "Ohio"
   },
   {
-    "category": "h",
+    "phoneticSymbol": "h",
     "word": "Oklahoma"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "make"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "man"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "many"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "market"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "may"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "me"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "mean"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "meet"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "money"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "more"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "most"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "move"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "much"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "must"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "almost"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "common"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "company"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "example"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "family"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "important"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "information"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "number"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "recommend"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "small"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "something"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "summer"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "woman"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "arm"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "column"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "come"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "from"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "him"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "home"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "name"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "problem"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "same"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "some"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "system"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "team"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "them"
   },
   {
-    "category": "m",
+    "phoneticSymbol": "m",
     "word": "time"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "knee"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "knife"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "knock"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "know"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "name"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "near"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "need"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "never"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "new"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "next"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "nice"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "night"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "note"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "nothing"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "now"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "number"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "again"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "begin"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "between"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "can"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "down"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "even"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "happen"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "man"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "mean"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "own"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "question"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "run"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "then"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "turn"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "when"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "woman"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "company"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "country"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "end"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "enough"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "interest"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "many"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "money"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "understand"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "announce"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "annual"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "channel"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "connection"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "dinner"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "funny"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "manner"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "meanness"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "unknown"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "unnatural"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": "unnecessary"
   },
   {
-    "category": "n",
+    "phoneticSymbol": "n",
     "word": ""
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "bang"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "gang"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "hang"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "hanger"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "hanging"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "rang"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "sang"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "slang"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "bring"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "evening"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "king"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "morning"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "ring"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "sing"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "singer"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "spring"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "sting"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "string"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "swing"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "thing"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "wing"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "wring"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "along"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "belong"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "long"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "song"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "strong"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "wrong"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "among"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "lung"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "sung"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "tongue"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "young"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "anger"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "angle"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "angry"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "language"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "languid"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "finger"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "linger"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "single"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "Hungary"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "hunger"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "hungry"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "ankle"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "bank"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "blanket"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "drank"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "handkerchief"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "blink"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "drink"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "ink"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "link"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "pink"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "sink"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "sprinkler"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "stink"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "think"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "twinkle"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "rink"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "wink"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "wrinkle"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "bunk"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "bunker"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "dunk"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "monkey"
   },
   {
-    "category": "ŋ",
+    "phoneticSymbol": "ŋ",
     "word": "trunk"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "read"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "really"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "report"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "result"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "rhyme"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "right"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "room"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "run"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "write"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "wrong"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "air"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "bear"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "share"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "their"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "where"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "hear"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "peer"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "year"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "door"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "more"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "pour"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "war"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "sure"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "tour"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "occur"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "prefer"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "sir"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "were"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "color"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "over"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "sugar"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "around"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "break"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "carry"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "different"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "ferry"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "mirror"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "parent"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "worry"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "arm"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "careful"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "force"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "forget"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "large"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "order"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "perform"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "verb"
   },
   {
-    "category": "r",
+    "phoneticSymbol": "r",
     "word": "word"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "large"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "last"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "late"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "leave"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "let"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "life"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "like"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "little"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "live"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "long"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "look"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "lot"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "love"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "also"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "child"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "clear"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "help"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "include"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "old"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "only"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "place"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "problem"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "world"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "actually"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "allow"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "challenge"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "college"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "dollar"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "follow"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "really"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "village"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "control"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "deal"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "feel"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "level"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "school"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "several"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "social"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "total"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "travel"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "until"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "all"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "call"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "cell"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "fall"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "full"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "kill"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "sell"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "skill"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "small"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "still"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "tell"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "wall"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "well"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "will"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "file"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "mile"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "module"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "role"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "rule"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "sale"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "smile"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "style"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "while"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "whole"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "able"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "available"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "couple"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "example"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "little"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "people"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "possible"
   },
   {
-    "category": "l",
+    "phoneticSymbol": "l",
     "word": "table"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "wait"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "wake"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "waste"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "way"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "wave"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "walk"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "wall"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "Walter"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "war"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "warm"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "warn"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "wander"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "wasp"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "watch"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "want"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "wash"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "Washington"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "we"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "wear"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "week"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "well"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "wife"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "will"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "win"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "wish"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "with"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "woman"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "wonder"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "word"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "work"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "world"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "worry"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "would"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "always"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "anyway"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "award"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "aware"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "away"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "Delaware"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "forward"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "framework"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "Hawaii /həˈwaɪiː"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "həˈwɑːiː/"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "network"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "otherwise"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "reward"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "software"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "Taiwan"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "between"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "Dwight"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "Gwendolyn"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "Swede"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "Sweden"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "sweet"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "swim"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "swing"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "Swiss"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "Switzerland"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "switch"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "tweet"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "twice"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "Twitter"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "wheel"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "when"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "where"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "whether"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "which"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "while"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "whisper"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "white"
   },
   {
-    "category": "w",
+    "phoneticSymbol": "w",
     "word": "why"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "Kenya"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "yard"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "yarn"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "year"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "yellow"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "Yemen"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "yes"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "yesterday"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "yet"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "yield"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "yolk"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "York"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "you"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "young"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "your"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "youth"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "yo"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "yo"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "accumulate"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "Cuba"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "cute"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "distribute"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "stimulate"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "argue"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "continue"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "hue"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "value"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "few"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "Matthew"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "nephew"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "interview"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "review"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "view"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "preview"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "cure"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "curious"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "pure"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "security"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "accumulate"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "failure"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "formula"
   },
   {
-    "category": "j",
+    "phoneticSymbol": "j",
     "word": "popular"
   }
 ];
 
-export { categories, phoneticSymbols, words };
+const voewls = phoneticSymbols.filter(c => c.category === 'voewls');
+const diphtongs = phoneticSymbols.filter(c => c.category === 'diphtongs');
+const consonants = phoneticSymbols.filter(c => c.category === 'consonants');
+
+const getWordsForPhonetic = (phonetic) => {
+  return words
+          .filter(c => c.phoneticSymbol === phonetic)
+          .map(item => item.word);
+};
+
+export { categories, words, voewls, diphtongs, consonants, getWordsForPhonetic };
