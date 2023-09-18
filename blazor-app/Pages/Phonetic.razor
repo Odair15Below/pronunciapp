@@ -1,0 +1,126 @@
+﻿@page "/phonetic/{symbol}"
+@using Pronunciapp.Data;
+
+
+@inject PracticeManager practiceManager;
+@inject ScoreBoard scoreBoard;
+
+@if (PhoneticSymbol is not null)
+{
+    var backUrl = $"/phoneticSymbolList/{PhoneticSymbol.Category}";
+
+    <nav class="d-flex justify-space-between align-center" Style="color: #E8EAF6">
+        <NavLink href="@backUrl" Style="color: #E8EAF6">
+            <MudIconButton Class="d-inline pr-4"
+                           Icon="@Icons.Material.Filled.ArrowBack"
+                           aria-label="back"
+                           Style="color: #E8EAF6" />
+            <MudText Typo="Typo.subtitle2" Style="color: #E8EAF6" Class="d-inline">back</MudText>
+        </NavLink>
+        <MudText Typo="Typo.subtitle2">repetitions: @WordPracticeTotal</MudText>
+
+    </nav>
+
+    <div style="text-align: center;color: #C5CAE9" class="pa-4">
+        <div>Phonetic Symbol</div>
+        <h4>@PhoneticSymbol.Symbol</h4>
+    </div>
+
+    <div class="pa-4" Style="color: #E8EAF6">
+        <div style="display: flex; justify-content: space-evenly; align-items: center;" class="pa-4">
+
+            <div class="pa-2"
+                style="background-color: transparent;display:flex; justify-items: center; flex-direction: column; cursor: pointer; height: 100%"
+                @onclick="OnPreviousWord_Clicked">
+                <MudIconButton Class="d-block"
+                               Icon="@Icons.Material.Filled.ArrowBackIos"
+                               Style="color: #E8EAF6"
+                               aria-label="speak"
+                               Size="Size.Small"
+                @onclick="OnPreviousWord_Clicked" />
+                <MudText Typo="Typo.subtitle1" Style="color: #E8EAF6">previous</MudText>
+            </div>
+
+
+            <MudText Typo="Typo.h3" class="pa-4 border-solid border-2 mud-border-primary rounded">@PhoneticWord.Word</MudText>
+
+
+            <div class="pa-2"
+                style="background-color: transparent;display:flex; justify-items: center; flex-direction: column;"
+                @onclick="OnNextWordCliked_Clicked">
+
+                <MudIconButton Class="d-block"
+                               Icon="@Icons.Material.Filled.ArrowForwardIos"
+                               Style="color: #E8EAF6"
+                               aria-label="speak"
+                               Size="Size.Small"
+                @onclick="OnNextWordCliked_Clicked" />
+                <MudText Typo="Typo.subtitle1" Style="color: #E8EAF6">next</MudText>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div style="text-align: center;" class="pa-4">
+        <MudIconButton Icon="@Icons.Material.Filled.PlayCircle"
+                       Size="Size.Large"
+                       Color="Color.Primary"
+                       aria-label="speak"
+        @onclick="() => onClickSpeak(PhoneticWord.Word)" />
+    </div>
+
+    @if (!string.IsNullOrEmpty(PhoneticSymbol.YoutubeVideoId))
+    {
+        var embededVideoUrl = @$"https://www.youtube.com/embed/{PhoneticSymbol.YoutubeVideoId}";
+        <iframe width="540" height="420" src="@embededVideoUrl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    }
+}
+
+@code {
+
+    [Parameter]
+    public string Symbol { get; set; }
+
+    public string SpeechSpeed { get; set; } = "1";
+
+    private PhoneticWord PhoneticWord { get; set; }
+    private PhoneticSymbol PhoneticSymbol { get; set; }
+    private int WordPracticeTotal { get; set; }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        practiceManager.PracticePhoneticSymbol(Symbol);
+        PhoneticWord = practiceManager.SelectedPhoneticWord;
+        PhoneticSymbol = practiceManager.SelectedPhoneticSymbol;
+
+        await LoadWordPracticeTotal();
+    }
+
+    protected async Task OnNextWordCliked_Clicked()
+    {
+        practiceManager.PracticeNewWord();
+        await scoreBoard.AddPractice(PhoneticSymbol, PhoneticWord);
+        PhoneticWord = practiceManager.SelectedPhoneticWord;
+        await LoadWordPracticeTotal();
+    }
+
+    protected async Task OnPreviousWord_Clicked()
+    {
+        practiceManager.PracticePreviousWord();
+        await scoreBoard.AddPractice(PhoneticSymbol, PhoneticWord);
+        PhoneticWord = practiceManager.SelectedPhoneticWord;
+        await LoadWordPracticeTotal();
+    }
+
+    private async Task LoadWordPracticeTotal() => WordPracticeTotal = await scoreBoard.GetWordPracticeTotal(PhoneticSymbol, PhoneticWord);
+
+    async Task onClickSpeak(string word)
+    {
+        var speechOptions = new SpeechOptions { Pitch = 0.1f, Volume = 1 };
+        await TextToSpeech.Default.SpeakAsync(word, speechOptions);
+
+    }
+
+}

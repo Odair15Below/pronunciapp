@@ -1,0 +1,16 @@
+﻿<MudAppBar Elevation="0" Class="align-center">
+
+    @if (!string.IsNullOrEmpty(BackUrl))
+    {
+        <NavLink href="@BackUrl">
+            <MudButton>Back</MudButton>
+        </NavLink>
+    }
+    
+    <MudText>Pronunciapp</MudText>
+</MudAppBar>
+
+@code {
+    [Parameter]
+    public string BackUrl { get; set; }
+}

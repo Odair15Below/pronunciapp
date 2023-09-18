@@ -1,0 +1,44 @@
+﻿@page "/phoneticSymbolList/{phoneticSymbolCategory}"
+
+@using Pronunciapp.Data;
+@inject AppData appData;
+
+
+@if (!string.IsNullOrEmpty(PhoneticSymbolCategory))
+{
+    <NavLink class="nav-link pb-4" href="/">
+        back
+    </NavLink>
+
+    <MudPaper Class="pa-8 opacity-25" Outlined="true" Elevation="0">
+
+        <MudText Typo="Typo.h4" Class="pb-4" Align="Align.Center">@PhoneticSymbolCategory</MudText>
+
+        <MudGrid>
+            @foreach (var phoneticSymbol in PhoneticSymbols)
+            {
+                var link = $"/phonetic/{phoneticSymbol.Symbol}";
+                <MudItem>
+                    <NavLink class="nav-link" href="@link">
+                        <MudPaper Class="pa-4">
+                            <MudText>
+                                <MudText Typo="Typo.caption">@phoneticSymbol.Symbol</MudText>
+                            </MudText>
+                        </MudPaper>
+                    </NavLink>
+                </MudItem>
+            }
+        </MudGrid>
+    </MudPaper>
+}
+
+@code {
+    [Parameter]
+    public string PhoneticSymbolCategory { get; set; }
+    public IEnumerable<PhoneticSymbol> PhoneticSymbols { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        PhoneticSymbols = appData.PhoneticSymbols.Where(ps => ps.Category.Equals(PhoneticSymbolCategory, StringComparison.OrdinalIgnoreCase)).ToList();
+    }
+}

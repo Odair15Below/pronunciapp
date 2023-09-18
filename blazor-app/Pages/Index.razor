@@ -1,0 +1,27 @@
+﻿@page "/"
+@using Pronunciapp.Data;
+
+@inject AppData appData
+
+@if (appData is not null)
+{
+    <MudStack Spacing="8" >
+        <NavLink href="/phoneticSymbolList/Monophtongs">
+            <MudPaper class="pa-3">
+                <MudText Typo="Typo.h4" Align="Align.Center">Monophtongs</MudText>
+            </MudPaper>
+        </NavLink>
+        <NavLink href="/phoneticSymbolList/diphtongs">
+            <MudPaper class="pa-3">
+                <MudText Typo="Typo.h4" Align="Align.Center">Diphtongs</MudText>
+            </MudPaper>
+        </NavLink>
+        <NavLink href="/phoneticSymbolList/consonants">
+            <MudPaper class="pa-3">
+                <MudText Typo="Typo.h4" Align="Align.Center">Consonants</MudText>
+            </MudPaper>
+        </NavLink>
+    </MudStack>
+}
+
+
